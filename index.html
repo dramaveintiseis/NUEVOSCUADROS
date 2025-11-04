@@ -53,7 +53,7 @@
 
   <model-viewer
     id="viewer"
-    src="CUADROS/CRITICO.glb"
+    src="CUADROS AR/CRITICO.glb"
     ar
     ar-modes="webxr scene-viewer quick-look"
     camera-controls
@@ -84,7 +84,7 @@
 
     function actualizarCuadro() {
       const nombre = cuadros[index];
-      viewer.src = `CUADROS/${nombre}.glb`;
+      viewer.src = `CUADROS AR/${nombre}.glb`;
       titulo.textContent = nombre;
     }
 
@@ -101,3 +101,4 @@
 
 </body>
 </html>
+
